@@ -1,0 +1,29 @@
+./lab3 Bucket1/test_case0.txt > out.txt
+diff out.txt Bucket1/answer0.txt
+./lab3 Bucket1/test_case1.txt > out.txt
+diff out.txt Bucket1/answer1.txt
+./lab3 Bucket1/test_case3.txt > out.txt
+diff out.txt Bucket1/answer3.txt
+./lab3 Bucket1/test_case4.txt > out.txt
+diff out.txt Bucket1/answer4.txt
+./lab3 Bucket1/test_case7.txt > out.txt
+diff out.txt Bucket1/answer7.txt
+./lab3 Bucket1/test_case8.txt > out.txt
+diff out.txt Bucket1/answer8.txt
+
+
+./lab3 Bucket2/test_case5.txt > out.txt
+diff out.txt Bucket2/answer5.txt
+./lab3 Bucket2/test_case6.txt > out.txt
+diff out.txt Bucket2/answer6.txt
+./lab3 Bucket2/test_case9.txt > out.txt
+diff out.txt Bucket2/answer9.txt
+
+Bucket 80
+Done
+
+
+Bucket 100
+done
+
+g++ -Wall -Werror -std=c++17 -g *.cpp -o lab4
